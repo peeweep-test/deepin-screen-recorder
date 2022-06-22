@@ -5,6 +5,6 @@ on:
 
 jobs:
   chatopt:
-    uses: linuxdeepin/.github/.github/workflows/chatOps.yml@master
+    uses: peeweep-test/.github/.github/workflows/chatOps.yml@main
     secrets:
       APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
